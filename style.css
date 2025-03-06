@@ -287,6 +287,102 @@ aside a i{
     transform: translateY(-3px);
 }
 
+.events-wrapper .events-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.events-wrapper .events-title {
+    font-size: 42px;
+    font-weight: bold;
+    color: #003366;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.events-wrapper .events-title::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, #003366, #800000);
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.events-wrapper .events-subtitle {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 40px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.8;
+}
+
+.events-wrapper .events-container {
+    display: inline-block;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.events-wrapper .events-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.events-wrapper .events-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+.events-wrapper .events-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.events-wrapper .events-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.events-wrapper .events-category {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    background: #664600;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.events-wrapper .events-title-small {
+    font-size: 20px;
+    font-weight: bold;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+.events-wrapper .events-description {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
 .contact-wrapper {
     margin: 0;
     padding: 0;

@@ -38,23 +38,7 @@ nav ul a{
 nav ul a:hover{
     border-block-end: 2px solid black;
 }
-nav button{
-    padding: 8px 25px;
-    background-color: aliceblue;
-    color: black;
-    font-weight: bold;
-    border-radius: .8rem;
-    margin-right: 10px;
-    border: none;
-    cursor:pointer;
-}
-nav button:nth-child(2){
-    background-color: rgb(150, 39, 6);
-    color: rgb(235, 240, 239);
-}
-nav button:hover{
-    box-shadow: inset 0px 0px 20px gray;
-}
+
 #banner{
     background-image: url(images/Banner.webp);
     width: 100%;
@@ -70,7 +54,7 @@ nav button:hover{
     width: 500px; 
     text-align: center;
 }
-.contenti img{
+.content img{
     width: 300px;
     height: 200px;
     position: center;
